@@ -51,3 +51,44 @@ h2 {
   font-size: 20px;
   margin-top: 10px;
 }
+.madeleine-profile {
+  width: 200px;
+  margin: 10px;
+}
+.info-head {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #faebd7;
+  border: solid 2px #000000;
+  padding: 20px;
+  margin: 70px 0px;
+}
+.head-info-text {
+  margin: 10px;
+  text-align: center;
+  margin-top: 70px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #000000;
+  padding: 8px 30px;
+  border: #000000;
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+}
+a button {
+  color: var(--primary-color);
+}
+.hanging-stone {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+/*Responsive*/
+@media (max-width: 500px) {
+  .info-head {
+    flex-direction: column;
+  }
+}
