@@ -53,7 +53,8 @@ h2 {
 }
 .madeleine-profile {
   width: 200px;
-  margin: 10px;
+  display: block;
+  margin: 0 auto;
 }
 .info-head {
   display: flex;
@@ -87,8 +88,20 @@ a button {
   margin: 0 auto;
 }
 /*Responsive*/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .info-head {
     flex-direction: column;
+    margin: 35px;
+  }
+  .madeleine-profile {
+    margin-top: 30px;
+  }
+  .head-info-text {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .head-line {
+    width: 200px;
   }
 }
