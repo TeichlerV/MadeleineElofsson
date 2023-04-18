@@ -4,3 +4,13 @@
 body {
   background-color: var(--primary-color);
 }
+.navbar {
+  background-color: black;
+}
+.nav-item a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.navbar-brand {
+  color: var(--primary-color);
+}
