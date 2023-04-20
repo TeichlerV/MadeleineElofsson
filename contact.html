@@ -61,8 +61,10 @@
     <h1>Kontakt</h1>
     <hr class="head-line" />
     <img src="visuals/stenar-lila.jpg" class="stones img-fluid" alt="" />
-    ---------------
-    <div class="container-contact mt-5">
+    <div class="contact-text text-center mt-5">
+      Här kan det står någonting om att kontakta Madeleine
+    </div>
+    <div class="container-contact mt-4">
       <form
         class="row g-3"
         action="https://formsubmit.co/viktoria.teichler@outlook.com"
@@ -72,71 +74,68 @@
         <input type="text" name="_honey" style="display: none" />
         <!--Disable Captcha-->
         <input type="hidden" name="_captcha" value="false" />
-
+        <!--Success page -->
         <input
           type="hidden"
           name="_next"
           value="https://madeleineelofsson.netlify.app/success.html"
         />
-
-        <div class="col-md">
-          <label for="firstname" class="form-label">First Name</label>
-          <input
-            type="text"
-            class="form-control"
-            name="Namn"
-            id="firstname"
-            placeholder="Förnamn"
-            required
-          />
+        <div class="row">
+          <div class="col-md">
+            <label for="firstname" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              name="Namn"
+              id="firstname"
+              placeholder="Namn"
+              required
+            />
+          </div>
         </div>
 
-        <div class="col-md">
-          <label for="lastname" class="form-label">Last Name</label>
-          <input
-            type="text"
-            class="form-control"
-            name="Efternamn"
-            id="lastname"
-            required
-          />
+        <div class="row">
+          <div class="col-md">
+            <label for="email" class="form-label"></label>
+            <input
+              type="email"
+              class="form-control"
+              name="Email"
+              id="colFormLabel"
+              placeholder="Email"
+              required
+            />
+          </div>
         </div>
-
-        <div class="col-md">
-          <label for="email" class="form-label">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            name="Email"
-            id="colFormLabel"
-            placeholder="email input"
-          />
+        <div class="row">
+          <div class="col-md">
+            <label for="phonenumber" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              name="Telefon"
+              id="phonenumber"
+              placeholder="Telefon"
+            />
+          </div>
         </div>
-
-        <div class="col-md">
-          <label for="phonenumber" class="form-label">Phone number</label>
-          <input
-            type="text"
-            class="form-control"
-            name="Telefon"
-            id="phonenumber"
-            required
-          />
+        <div class="row">
+          <div class="col-md">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              name="Meddelande"
+              rows="3"
+              placeholder="Skriv ditt medelande här"
+              required
+            ></textarea>
+          </div>
         </div>
-
-        <div class="col-md">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            name="Meddelande"
-            rows="3"
-            placeholder="Skriv ditt medelande här"
-          ></textarea>
-        </div>
-
-        <div class="col-md">
-          <button type="submit" class="btn btn-primary mb-2">Skicka</button>
+        <div class="row mt-3">
+          <div class="col-md">
+            <button type="submit" class="btn bg-light mb-5">Skicka</button>
+          </div>
         </div>
       </form>
     </div>
