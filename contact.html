@@ -65,79 +65,85 @@
       Här kan det står någonting om att kontakta Madeleine
     </div>
     <div class="container-contact mt-4">
-      <form
-        class="row g-3"
-        action="https://formsubmit.co/viktoria.teichler@outlook.com"
-        method="POST"
-      >
-        <!--Honeypot-->
-        <input type="text" name="_honey" style="display: none" />
-        <!--Disable Captcha-->
-        <input type="hidden" name="_captcha" value="false" />
-        <!--Success page -->
-        <input
-          type="hidden"
-          name="_next"
-          value="https://madeleineelofsson.netlify.app/success.html"
-        />
-        <div class="row">
-          <div class="col-md">
-            <label for="firstname" class="form-label"></label>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <form
+            class="row g-3"
+            action="https://formsubmit.co/viktoria.teichler@outlook.com"
+            method="POST"
+          >
+            <!--Honeypot-->
+            <input type="text" name="_honey" style="display: none" />
+            <!--Disable Captcha-->
+            <input type="hidden" name="_captcha" value="false" />
+            <!--Success page -->
             <input
-              type="text"
-              class="form-control"
-              name="Namn"
-              id="firstname"
-              placeholder="Namn"
-              required
+              type="hidden"
+              name="_next"
+              value="https://madeleineelofsson.netlify.app/success.html"
             />
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-md">
+                <label for="firstname" class="form-label"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="Namn"
+                  id="firstname"
+                  placeholder="Namn"
+                  required
+                />
+              </div>
+            </div>
 
-        <div class="row">
-          <div class="col-md">
-            <label for="email" class="form-label"></label>
-            <input
-              type="email"
-              class="form-control"
-              name="Email"
-              id="colFormLabel"
-              placeholder="Email"
-              required
-            />
-          </div>
+            <div class="row">
+              <div class="col-md">
+                <label for="email" class="form-label"></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="Email"
+                  id="colFormLabel"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md">
+                <label for="phonenumber" class="form-label"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="Telefon"
+                  id="phonenumber"
+                  placeholder="Telefon"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="Meddelande"
+                  rows="3"
+                  placeholder="Skriv ditt medelande här"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md">
+                <button type="submit" class="btn bg-light mb-5">Skicka</button>
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="row">
-          <div class="col-md">
-            <label for="phonenumber" class="form-label"></label>
-            <input
-              type="text"
-              class="form-control"
-              name="Telefon"
-              id="phonenumber"
-              placeholder="Telefon"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <label for="exampleFormControlTextarea1"></label>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              name="Meddelande"
-              rows="3"
-              placeholder="Skriv ditt medelande här"
-              required
-            ></textarea>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md">
-            <button type="submit" class="btn bg-light mb-5">Skicka</button>
-          </div>
-        </div>
-      </form>
+        <div class="col-md-3"></div>
+      </div>
     </div>
   </body>
 </html>
