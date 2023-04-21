@@ -151,6 +151,18 @@ h3 {
 .husrensning1 {
   margin-bottom: 50px;
 }
+/*About*/
+.himlavalvet {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.about-text {
+  margin: 20px 80px 10px 80px;
+  text-align: center;
+}
 /*Responsive*/
 @media (max-width: 770px) {
   .medialvagledning2 {
