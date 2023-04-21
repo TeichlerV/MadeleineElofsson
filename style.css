@@ -103,17 +103,77 @@ a button {
   margin: 0 auto;
 }
 /*Tjänster*/
-.vagledning {
+.vagledning-img {
   width: 250px;
   display: block;
   margin: 0 auto;
+}
+.vagledning-img-2 {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.seans-img,
+.hus-img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+.seans-img-2,
+.hus-img-2 {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.mid-line {
+  width: 1000px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 h3 {
   font-family: "Italianno", cursive;
   font-size: 50px;
 }
+.tjanster-info-2 {
+  margin: 20px 45px 10px 45px;
+}
+.price2 {
+  margin-left: 45px;
+}
 
 /*Responsive*/
+@media (max-width: 770px) {
+  .medialvagledning2 {
+    visibility: visible;
+  }
+  .medialvagledning1 {
+    display: none;
+  }
+  .seans1 {
+    display: none;
+  }
+  .husrensning1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 2500px) {
+  .medialvagledning2 {
+    display: none;
+  }
+  .seans2 {
+    display: none;
+  }
+  .husrensning2 {
+    display: none;
+  }
+}
 @media (max-width: 700px) {
   .info-head {
     flex-direction: column;
@@ -129,5 +189,10 @@ h3 {
 @media (max-width: 450px) {
   .head-line {
     width: 200px;
+  }
+}
+@media (max-width: 1000px) {
+  .mid-line {
+    width: 750px;
   }
 }
