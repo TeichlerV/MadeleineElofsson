@@ -157,7 +157,7 @@ h3 {
   display: block;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .about-text {
   margin: 20px 80px 10px 80px;
@@ -209,5 +209,13 @@ h3 {
 @media (max-width: 1000px) {
   .mid-line {
     width: 750px;
+  }
+}
+@media (max-width: 600px) {
+  .himlavalvet {
+    width: 400px;
+  }
+  .about-text {
+    margin: 20px 50px 10px 50px;
   }
 }
