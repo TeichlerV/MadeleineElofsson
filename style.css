@@ -102,6 +102,17 @@ a button {
   display: block;
   margin: 0 auto;
 }
+/*Tjänster*/
+.vagledning {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+h3 {
+  font-family: "Italianno", cursive;
+  font-size: 50px;
+}
+
 /*Responsive*/
 @media (max-width: 700px) {
   .info-head {
