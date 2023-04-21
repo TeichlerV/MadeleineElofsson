@@ -146,8 +146,11 @@ h3 {
 }
 .price2 {
   margin-left: 45px;
+  margin-bottom: 10px;
 }
-
+.husrensning1 {
+  margin-bottom: 50px;
+}
 /*Responsive*/
 @media (max-width: 770px) {
   .medialvagledning2 {
