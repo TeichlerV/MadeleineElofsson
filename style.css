@@ -175,6 +175,7 @@ h3 {
 }
 .about-text {
   margin-top: 40px;
+  margin-bottom: 50px;
   text-align: center;
   line-height: 30px;
 }
@@ -191,6 +192,9 @@ h3 {
   }
   .husrensning1 {
     display: none;
+  }
+  .contact-text {
+    margin: 0px 20px;
   }
 }
 @media only screen and (min-width: 770px) and (max-width: 2500px) {
